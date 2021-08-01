@@ -1,0 +1,83 @@
+{
+  "_from": "genemo",
+  "_id": "genemo@1.3.4",
+  "_inBundle": false,
+  "_integrity": "sha512-lXzK0zPVTCdBjH2l5lTy5PC/7n4EJxEk7T2S29+rfte04VSgwu4v0jzJfMzLfS9B8eDXZBJcw3BIorWb92xJlQ==",
+  "_location": "/genemo",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "genemo",
+    "name": "genemo",
+    "escapedName": "genemo",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/genemo/-/genemo-1.3.4.tgz",
+  "_shasum": "f483a2c1de9c16229e0de520312fb43f31007d08",
+  "_spec": "genemo",
+  "_where": "C:\\Users\\ohadh\\Desktop\\ReactNativeFinalProj\\TSP-NodeJS",
+  "author": {
+    "name": "Łukasz Jenczmyk"
+  },
+  "bugs": {
+    "url": "https://github.com/lukix/genemo/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "browser-process-hrtime": "1.0.0",
+    "ramda": "0.27.1"
+  },
+  "deprecated": false,
+  "description": "Simple to use genetic algorithms library. Supports both NodeJS and web browsers.",
+  "devDependencies": {
+    "@babel/cli": "7.10.5",
+    "@babel/core": "7.10.5",
+    "@babel/plugin-proposal-object-rest-spread": "7.10.4",
+    "@babel/plugin-transform-modules-commonjs": "7.10.4",
+    "babel-jest": "26.1.0",
+    "coveralls": "3.1.0",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb-base": "14.1.0",
+    "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-jest": "23.8.2",
+    "husky": "^4.2.5",
+    "jest": "25.1.0",
+    "random-seed": "0.3.0"
+  },
+  "homepage": "https://github.com/lukix/genemo#readme",
+  "husky": {},
+  "keywords": [
+    "genetic algorithm",
+    "genetic algorithms",
+    "evolutionary algorithm",
+    "metaheuristics",
+    "traveling salesman",
+    "traveling salesperson"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "genemo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukix/genemo.git"
+  },
+  "scripts": {
+    "build": "babel src -d lib",
+    "dev": "babel --watch src -d lib",
+    "example1": "node ./examples/example1-findSequence.js",
+    "example2": "node ./examples/example2-travelingSalesman.js",
+    "example3": "node ./examples/example3-parallelExecution/example3.js",
+    "lint": "eslint ./**/*.js",
+    "prepublishOnly": "npm run build && npm run prepush",
+    "prepush": "npm run lint && npm run test",
+    "test": "jest --coverage"
+  },
+  "version": "1.3.4"
+}

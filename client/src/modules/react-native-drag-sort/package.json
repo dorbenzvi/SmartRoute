@@ -1,0 +1,60 @@
+{
+  "_from": "react-native-drag-sort@^2.4.2",
+  "_id": "react-native-drag-sort@2.4.2",
+  "_inBundle": false,
+  "_integrity": "sha512-7f74endMVpYdxXsOY20Z8SfAy7HcLmmFWvYy9RrfzyZGnXhv3VjIMkMeSoOdBRJO4jRjaZSNIW6GdTE49bhuNg==",
+  "_location": "/react-native-drag-sort",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "react-native-drag-sort@^2.4.2",
+    "name": "react-native-drag-sort",
+    "escapedName": "react-native-drag-sort",
+    "rawSpec": "^2.4.2",
+    "saveSpec": null,
+    "fetchSpec": "^2.4.2"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-drag-sort/-/react-native-drag-sort-2.4.2.tgz",
+  "_shasum": "bf27a70f80b59d6f77e3caa2160fb0426a3f8627",
+  "_spec": "react-native-drag-sort@^2.4.2",
+  "_where": "C:\\Users\\ohadh\\Desktop\\ReactNativeFinalProj\\client",
+  "author": {
+    "name": "mochixuan"
+  },
+  "bugs": {
+    "url": "https://github.com/mochixuan/react-native-drag-sort/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Drag and drop sort control for react-native",
+  "devDependencies": {},
+  "homepage": "https://github.com/mochixuan/react-native-drag-sort#readme",
+  "keywords": [
+    "drag",
+    "drop",
+    "sort",
+    "react",
+    "react-component",
+    "ios",
+    "android",
+    "react-native",
+    "list"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "react-native-drag-sort",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mochixuan/react-native-drag-sort.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.4.2"
+}

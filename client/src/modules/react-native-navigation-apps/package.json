@@ -1,0 +1,44 @@
+{
+  "name": "react-native-navigation-apps",
+  "version": "1.0.27",
+  "description": "Open & Navigate With External Navigation Apps (Waze,GoogleMaps,iOS Maps) from react native",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eranabir/react-native-navigations-apps.git"
+  },
+  "keywords": [
+    "navigation",
+    "react-native",
+    "react-native-component",
+    "react",
+    "mobile",
+    "ios",
+    "android",
+    "waze",
+    "google maps",
+    "maps"
+  ],
+  "author": "eran abir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eranabir/react-native-navigations-apps/issues"
+  },
+  "homepage": "https://github.com/eranabir/react-native-navigations-apps#readme",
+  "dependencies": {
+    "prop-types": "^15.6.1",
+    "react-native-actionsheet": "^2.4.2"
+  },
+  "devDependencies": {
+    "babel-jest": "23.0.1",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "23.1.0",
+    "react": "16.3.1",
+    "react-native": "0.55.4",
+    "react-test-renderer": "16.3.1"
+  }
+
+,"_resolved": "https://registry.npmjs.org/react-native-navigation-apps/-/react-native-navigation-apps-1.0.27.tgz"
+,"_integrity": "sha512-KpdM1Es57YH2K3aY4vlkhilwilYkzO9LUV8iJOPnHx8039TqAfL9+hnmTmHhYeZWNCKBFwbtDy3rDO08om42dA=="
+,"_from": "react-native-navigation-apps@1.0.27"
+}
